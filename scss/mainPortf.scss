@@ -1,37 +1,78 @@
 @use 'variables';
-.sect
-{
+
+.sect {
     background-color: variables.$colorwhite;
     display: flex;
     justify-content: center;
-   
-    .headerbuttons
-    {
+
+    .headerbuttons {
         margin-top: 94px;
-       
-        button
-        {
-            background-color:variables.$sortblack;
+
+        button {
+            background-color: variables.$sortblack;
             border-radius: 4px;
-            border:none;
-            padding:0px 16px;
-        &:hover
-        {
-            color:variables.$colorwhite;
-            background-color: variables.$colorblue;
+            border: none;
+            padding: 13px 19px;
+            margin-right: 8px;
+            &:hover {
+                color: variables.$colorwhite;
+                background-color: variables.$colorblue;
+            }
         }
-        }
-        .desc_but
-        {
+
+        .desc_but {
             font-size: variables.$fontsize14;
             font-weight: variables.$font600;
         }
-    } 
-
-    .imgcont
-    {
-        max-height: 116px;
-        border:2px solid red;
     }
+
+
+
+}
+
+.img_cont {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: variables.$colorwhite;
     
 }
+
+.ourteam_photo {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    margin-bottom: 94px;
+}
+
+.ourteam_photo div {
+  
+    height: 404px;
+    max-width: 370px;
+    background-color: variables.$colorwhite;
+    flex-basis: 30%;
+ 
+    text-align: center;
+    border: 1px solid #EEEEEE;
+    margin-bottom:30px;
+    margin-right: 27.5px;
+    text-align: start;
+}
+
+.ourteam_photo .desc_header
+{
+   padding: 14px 24px;
+   font-size: calc(variables.$fontsize16 + 2px);
+   font-weight: variables.$font700;
+}
+
+.ourteam_photo .desc_photo
+{
+    font-size: variables.$fontsize16;
+    padding: 14px 24px;
+    font-weight: variables.$font400;
+    color: #757575;
+}
+

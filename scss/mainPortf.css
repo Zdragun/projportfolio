@@ -10,7 +10,8 @@
   background-color: #F5F4FA;
   border-radius: 4px;
   border: none;
-  padding: 0px 16px;
+  padding: 13px 19px;
+  margin-right: 8px;
 }
 .sect .headerbuttons button:hover {
   color: #FFFFFF;
@@ -20,7 +21,43 @@
   font-size: 14px;
   font-weight: 600;
 }
-.sect .imgcont {
-  max-height: 116px;
-  border: 2px solid red;
+
+.img_cont {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+}
+
+.ourteam_photo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  margin-bottom: 94px;
+}
+
+.ourteam_photo div {
+  height: 404px;
+  max-width: 370px;
+  background-color: #FFFFFF;
+  flex-basis: 30%;
+  text-align: center;
+  border: 1px solid #EEEEEE;
+  margin-bottom: 30px;
+  margin-right: 27.5px;
+  text-align: start;
+}
+
+.ourteam_photo .desc_header {
+  padding: 14px 24px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.ourteam_photo .desc_photo {
+  font-size: 16px;
+  padding: 14px 24px;
+  font-weight: 400;
+  color: #757575;
 }/*# sourceMappingURL=mainPortf.css.map */

@@ -1,0 +1,37 @@
+.foot_cont {
+  background-color: #2F303A;
+  min-height: 251px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+ul {
+  list-style-type: none;
+  margin: 60px 215px;
+}
+ul .item {
+  color: #FFFFFF;
+  padding-bottom: 12px;
+}
+ul .phone {
+  opacity: 0.6;
+}
+ul .mail {
+  opacity: 0.6;
+}
+
+.webStudio1 {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  color: #FFFFFF;
+  padding-bottom: 12px;
+}
+.webStudio1 .web1 {
+  color: #2196F3;
+}
+
+.webStudio1:hover {
+  text-decoration: none;
+  color: #FFFFFF;
+}/*# sourceMappingURL=footerPortf.css.map */

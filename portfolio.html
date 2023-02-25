@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="./scss/App.css">
     <link rel="stylesheet" href="./scss/headerPortf.css">
     <link rel="stylesheet" href="./scss/mainPortf.css">
+    <link rel="stylesheet" href="./scss/footerPortf.css">
 </head>
+
 <body>
+    <div>
         <!--Header-->
         <header>
             <ul class='menu_items'>
@@ -16,24 +21,91 @@
                 <li><a href='/studio'>Студія</a></li>
                 <li><a href='./portfolio.html'>Портфоліо</a></li>
                 <li><a href='/contacts'>Контакти</a></li>
-                
+
             </ul>
             <ul class='menu_contact'>
                 <li style="padding-right:40px"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                 <li><a style="color:#757575" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
         </header>
+
         <section class="sect">
             <div class="headerbuttons">
-                <button><p class="desc_but">Усі</p></button>
-                <button><p class="desc_but">Веб-сайти</p></button>
-                <button><p class="desc_but">Додатки</p></button>
-                <button><p class="desc_but">Дизайн</p></button>
-                <button><p class="desc_but">Маркетинг</p></button>
+                <button>
+                    <p class="desc_but">Усі</p>
+                </button>
+                <button>
+                    <p class="desc_but">Веб-сайти</p>
+                </button>
+                <button>
+                    <p class="desc_but">Додатки</p>
+                </button>
+                <button>
+                    <p class="desc_but">Дизайн</p>
+                </button>
+                <button>
+                    <p class="desc_but">Маркетинг</p>
+                </button>
             </div>
         </section>
-        <section class="img_cont">
-            <p>dsdsd</p>
-        </section>
+        <main class="img_cont">
+            <div class='ourteam_photo'>
+                <div><img src="images/technokryak.png" width="370" height="294" alt='technokryak' />
+                    <h4 class='desc_header'>Технокряк</h4>
+                    <p class='desc_photo'>Веб-сайт</p>
+                </div>
+                <div>
+                    <img src="images/newOrlean.png" width="370" height="294" alt='newOrlean' />
+                    <h4 class='desc_header'>Постер New Orlean vs Golden Star</h4>
+                    <p class='desc_photo'>Дизайн</p>
+                </div>
+                <div><img src="images/seaFood.png" width="370" height="294" alt='seaFood' />
+                    <h4 class='desc_header'>Ресторан Seafood</h4>
+                    <p class='desc_photo'>Додаток</p>
+                </div>
+                <div><img src="images/projPrime.png" width="370" height="294" alt='projPrime' />
+                    <h4 class='desc_header'>Проєкт Prime</h4>
+                    <p class='desc_photo'>Маркетинг</p>
+                </div>
+                <div><img src="images/projBox.png" width="370" height="294" alt='projBox' />
+                    <h4 class='desc_header'>Проєкт Boxes</h4>
+                    <p class='desc_photo'>Додаток</p>
+                </div>
+                <div><img src="images/inspiration.png" width="370" height="294" alt='inspiration' />
+                    <h4 class='desc_header'>Inspiration has no Borders</h4>
+                    <p class='desc_photo'>Веб-сайт</p>
+                </div>
+                <div><img src="images/limEdit.png" width="370" height="294" alt='limEdit' />
+                    <h4 class='desc_header'>Видання Limited Edition</h4>
+                    <p class='desc_photo'>Дизайн</p>
+                </div>
+                <div><img src="images/lab.png" width="370" height="294" alt='lab' />
+                    <h4 class='desc_header'>Проєкт LAB</h4>
+                    <p class='desc_photo'>Маркетинг</p>
+                </div>
+                <div><img src="images/bussiness.png" width="370" height="294" alt='bussiness' />
+                    <h4 class='desc_header'>Growing Business</h4>
+                    <p class='desc_photo'>Додаток</p>
+                </div>
+            </div>
+        </main>
+        <footer class='foot_cont'>
+            <ul class='menu_items'>
+                <li>
+                    <p class='webStudio1'><span class='web1'>Web</span>Studio</p>
+                </li>
+                <li class='item'>
+                    <p>м. Київ, пр-т Лесі Українки, 26</p>
+                </li>
+                <li class='item mail'>
+                    <p>info@devstudio.com</p>
+                </li>
+                <li class='item phone'>
+                    <p>+38 096 111 11 11</p>
+                </li>
+            </ul>
+        </footer>
+    </div>
 </body>
+
 </html>
