@@ -1,0 +1,31 @@
+.section {
+  height: 766px;
+  background-color: #F5F5F5;
+  padding-top: 98px;
+}
+.section ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+.section h3 {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.section .whatwedo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 118px;
+  text-align: center;
+  padding-right: 40px;
+}
+.section .whatwedo .section-title {
+  margin-bottom: 50px;
+  font-size: 36px;
+  font-weight: 900;
+}
+.section .whatwedo li {
+  margin-right: 30px;
+}/*# sourceMappingURL=section.css.map */

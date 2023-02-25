@@ -1,0 +1,46 @@
+@use 'variables';
+
+
+.section
+{
+    height: 766px;;
+    background-color: variables.$colordarkerwhite;
+    padding-top: 98px;
+
+
+    ul
+    {
+        list-style-type: variables.$invisible;
+        display: flex;
+        justify-content: center;
+    }
+ 
+
+    h3{
+       
+        font-size: variables.$fontsize14;
+        font-weight: variables.$font700;
+        text-transform: uppercase;
+    }
+
+
+    .whatwedo
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 118px;
+        text-align: center;
+        padding-right: 40px;
+
+        .section-title
+        {
+            margin-bottom: 50px;
+            font-size: variables.$fontsize36;
+            font-weight: variables.$font900;
+        }
+        li{
+            margin-right: 30px;
+        }
+    }
+}

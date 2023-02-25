@@ -1,0 +1,44 @@
+@use 'variables';
+
+
+
+.con {
+    min-height: 648px;
+    background-color: variables.$sortblack;
+    text-align: center;
+  }
+  
+  .ourteam_header {
+    font-size: variables.$fontsize36;
+    font-weight: variables.$font900;
+   padding-top: 96px;
+   padding-bottom: 50px;
+  }
+  
+  .ourteam_photo {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  .ourteam_photo div {
+    margin: 0 30px;
+    height: 368px;
+    width: 270px;
+    background-color: variables.$colorwhite;
+  }
+
+  .ourteam_photo div .desc_header
+  {
+    margin-top: 30px;
+    margin-bottom:10px;
+    font-weight: variables.$font600;
+  }
+
+  .ourteam_photo div .desc_photo
+  {
+    font-weight: variables.$font400;
+    color: #757575;
+  }

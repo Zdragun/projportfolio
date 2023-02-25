@@ -1,0 +1,37 @@
+.con {
+  min-height: 648px;
+  background-color: #F5F4FA;
+  text-align: center;
+}
+
+.ourteam_header {
+  font-size: 36px;
+  font-weight: 900;
+  padding-top: 96px;
+  padding-bottom: 50px;
+}
+
+.ourteam_photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.ourteam_photo div {
+  margin: 0 30px;
+  height: 368px;
+  width: 270px;
+  background-color: #FFFFFF;
+}
+
+.ourteam_photo div .desc_header {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.ourteam_photo div .desc_photo {
+  font-weight: 400;
+  color: #757575;
+}/*# sourceMappingURL=ourteam.css.map */

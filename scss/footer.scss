@@ -1,0 +1,50 @@
+@use 'variables';
+
+
+
+.foot_cont
+{
+    background-color: variables.$semiblack;
+    min-height: 251px;
+    display: flex;
+    justify-content: flex-start;
+}
+ul{
+  list-style-type: variables.$invisible;
+  margin: 60px 215px;
+  
+  .item {
+    color: variables.$colorwhite;
+    padding-bottom: 12px;
+  }
+  .phone
+  {
+    opacity: 0.6;
+
+  }
+  .mail
+  {
+    opacity: 0.6;
+  }
+}
+
+
+.webStudio1 {
+  font-family: variables.$font-family2;
+  font-weight: variables.$font700;
+  font-size: variables.$fontsize;
+  color: variables.$colorwhite;
+  padding-bottom: 12px;
+ 
+ 
+
+  
+  .web1 {
+    color: variables.$colorblue;
+  }
+}
+.webStudio1:hover
+{
+  text-decoration: variables.$invisible;
+  color: variables.$colorwhite;
+}

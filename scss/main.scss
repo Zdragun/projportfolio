@@ -1,0 +1,29 @@
+@use "variables";
+
+.main
+{
+    background-color: variables.$semiblack;
+    height:600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h1{
+        color:variables.$colorwhite;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 44px;
+        font-weight: variables.$font900;
+        padding-bottom: 30px;
+    }
+    button{
+        width: 200px;
+        height: 50px;
+        border-radius: 4px;
+        color:variables.$colorwhite;
+        background-color:variables.$colorblue;
+        border:variables.$invisible;
+        cursor: pointer;
+    }
+}

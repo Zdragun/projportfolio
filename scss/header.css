@@ -1,0 +1,41 @@
+header {
+  background-color: #fff;
+  max-height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+header .menu_items,
+header .menu_contact {
+  display: flex;
+  list-style: none;
+}
+header a {
+  color: #212121;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 20px 20px;
+  font-size: 14px;
+}
+header a:hover {
+  color: #2196F3;
+  text-decoration: underline;
+  text-decoration-color: #2196F3;
+  vertical-align: bottom;
+  padding-top: 15px;
+}
+header .webStudio {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  color: #212121;
+  padding-right: 93px;
+}
+header .webStudio .web {
+  color: #2196F3;
+}
+header .webStudio:hover {
+  text-decoration: none;
+  color: #212121;
+}/*# sourceMappingURL=header.css.map */

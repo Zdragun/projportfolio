@@ -1,0 +1,56 @@
+@use "variables";
+
+header {
+  background-color: #fff;
+  max-height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+
+  
+  .menu_items,
+  .menu_contact {
+    display: flex;
+    list-style: variables.$invisible;
+    
+  }
+  
+
+  a {
+    color: variables.$colorblack;
+    text-decoration: variables.$invisible;
+    font-weight: variables.$font500;
+    padding: 20px 20px;
+    font-size: 14px;
+
+    &:hover {
+      color: variables.$colorblue;
+      text-decoration: underline;
+      text-decoration-color: variables.$colorblue;
+      vertical-align: bottom;
+      padding-top: 15px;
+    }
+  }
+
+  .webStudio {
+    font-family: variables.$font-family2;
+    font-weight: variables.$font700;
+    font-size: variables.$fontsize;
+    color: variables.$colorblack;
+    padding-right: 93px;
+   
+  
+    
+    .web {
+      color: variables.$colorblue;
+    }
+  }
+  .webStudio:hover
+  {
+    text-decoration: variables.$invisible;
+    color: variables.$colorblack;
+  }
+}
+
+

@@ -1,0 +1,37 @@
+@use 'variables';
+.sect
+{
+    background-color: variables.$colorwhite;
+    display: flex;
+    justify-content: center;
+   
+    .headerbuttons
+    {
+        margin-top: 94px;
+       
+        button
+        {
+            background-color:variables.$sortblack;
+            border-radius: 4px;
+            border:none;
+            padding:0px 16px;
+        &:hover
+        {
+            color:variables.$colorwhite;
+            background-color: variables.$colorblue;
+        }
+        }
+        .desc_but
+        {
+            font-size: variables.$fontsize14;
+            font-weight: variables.$font600;
+        }
+    } 
+
+    .imgcont
+    {
+        max-height: 116px;
+        border:2px solid red;
+    }
+    
+}

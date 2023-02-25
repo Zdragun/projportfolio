@@ -1,0 +1,26 @@
+.sect {
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+}
+.sect .headerbuttons {
+  margin-top: 94px;
+}
+.sect .headerbuttons button {
+  background-color: #F5F4FA;
+  border-radius: 4px;
+  border: none;
+  padding: 0px 16px;
+}
+.sect .headerbuttons button:hover {
+  color: #FFFFFF;
+  background-color: #2196F3;
+}
+.sect .headerbuttons .desc_but {
+  font-size: 14px;
+  font-weight: 600;
+}
+.sect .imgcont {
+  max-height: 116px;
+  border: 2px solid red;
+}/*# sourceMappingURL=mainPortf.css.map */
